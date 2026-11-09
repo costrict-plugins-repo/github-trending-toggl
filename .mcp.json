@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "toggl": {
+      "command": "sh",
+      "args": [
+        "-c",
+        "cd \"${CLAUDE_PLUGIN_ROOT}\" && { [ -d node_modules ] || npm install --omit=dev --silent >&2; } && exec node index.js"
+      ],
+      "env": {
+        "TOGGL_API_TOKEN": "${user_config.toggl_api_token}"
+      }
+    }
+  }
+}

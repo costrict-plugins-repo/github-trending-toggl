@@ -1,0 +1,32 @@
+{
+  "name": "toggl",
+  "description": "Toggl Track time tracking plugin for Claude Code",
+  "owner": {
+    "name": "Vlad Podorozhnyi",
+    "email": "vlad.podorozhnyi@run-as-root.sh"
+  },
+  "plugins": [
+    {
+      "name": "toggl",
+      "description": "Log, edit, start/stop and query Toggl Track time entries via natural language",
+      "version": "1.2.0",
+      "source": "./",
+      "author": {
+        "name": "Vlad Podorozhnyi",
+        "email": "vlad.podorozhnyi@run-as-root.sh"
+      },
+      "homepage": "https://github.com/run-as-root/toggl-claude-plugin",
+      "license": "Apache-2.0",
+      "keywords": [
+        "toggl",
+        "toggl-track",
+        "time-tracking",
+        "timesheet",
+        "timer",
+        "productivity",
+        "mcp"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
